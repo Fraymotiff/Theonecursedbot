@@ -21,7 +21,7 @@ client.once('ready', () => {
      
 
      if (message.content.startsWith (PREFIX + "cursed")) {
-         let imageNumber = Math.floor(Math.random()* 100) +1
+         let imageNumber = Math.floor(Math.random()* 168) +1
              message.channel.send ("Let's Give it everything we got! It's Punishment time!",  {files: ["./cursed/" + imageNumber + ".png"]} )
              return; 
           
