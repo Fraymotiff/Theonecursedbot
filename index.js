@@ -14,7 +14,7 @@ const PREFIX ='!'
 client.once('ready', () => {
      //Code for the bot to do when starting up.
      })
-     console.log('Russian Roulette is now online!')
+     console.log('Cursed image sender is now online!')
    
      client.on('message', (message) => {
      const PREFIX = '!'
